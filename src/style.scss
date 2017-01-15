@@ -36,8 +36,10 @@ header h1 {
   line-height: .75;
 }
 
-section:nth-child(odd) {
-  background-color: #F5F5F5;
+section {
+  padding: 1em;
+  border: 2px solid black;
+  margin: .25em;
 }
 
 footer {
@@ -57,16 +59,6 @@ footer {
 
   header h1 {
     line-height: 0.6;
-  }
-
-  section {
-    padding: 1em;
-    border: 2px solid black;
-    margin: .25em;
-  }
-
-  section:nth-child(odd) {
-    background-color: white;
   }
 
 }
