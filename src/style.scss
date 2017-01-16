@@ -1,4 +1,7 @@
- @import 'normalize';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+@import 'normalize';
 
 // Colors
 
@@ -10,7 +13,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
   font-size: 15px;
   line-height: 1.3;
   padding: .5em;
