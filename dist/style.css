@@ -462,6 +462,21 @@ body {
     justify-content: center;
   }
 }
+header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  line-height: 2;
+}
+
+nav a {
+  text-decoration: none;
+}
+
 h1, h2, h3 {
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
@@ -551,15 +566,6 @@ section {
 
 footer {
   width: 100%;
-}
-
-footer ul {
-  list-style: none;
-  line-height: 2;
-}
-
-footer a {
-  text-decoration: none;
 }
 
 @media (min-width: 378px) {
