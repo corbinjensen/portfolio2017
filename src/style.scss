@@ -27,15 +27,29 @@ header {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: space-between;
 }
 
 nav ul {
   list-style: none;
   line-height: 2;
+  padding: .5em;
 }
 
 nav a {
   text-decoration: none;
+}
+
+@media (min-width: 378px) {
+  nav ul {
+    padding: 0;
+  }
+}
+
+@media (min-width:480px) {
+  nav ul {
+    padding: 0 1em;
+  }
 }
 
 // Typography
@@ -55,7 +69,6 @@ footer {
 }
 
 @media (min-width: 378px) {
-
 
   header {
     padding: 1em;
