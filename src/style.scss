@@ -2,8 +2,9 @@
 
 // Colors
 
-// Styles
+@import 'colors';
 
+// Styles
 
 
 body {
@@ -22,24 +23,11 @@ body {
   }
 }
 
-h1,h2,h3 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
-}
+// Typography
 
-h1 {
-  font-size: 2.75em;
-  font-size: 13vw;
-}
+@import 'type';
 
-header {
-  width: 100%;
-}
-
-
-header h1 {
-  line-height: .75;
-}
+// Layout
 
 section {
   padding: 1em;
@@ -49,6 +37,15 @@ section {
 
 footer {
   width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  line-height: 2;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 @media (min-width: 378px) {
