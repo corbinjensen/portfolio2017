@@ -72,12 +72,25 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+h4, h5 {
+  margin-bottom: .5rem;
+}
+
 h2 {
   font-size: 2em;
 }
 
 h3 {
   font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 a {
@@ -368,15 +381,19 @@ section:hover, section:focus {
   margin-bottom: .5rem;
 }
 
-.clients img {
-  border-radius: 50px;
-  margin-bottom: 1em;
-}
-
 .client {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.client img {
+  border-radius: 50px;
+  margin-bottom: 1em;
+}
+
+.client blockquote {
+  padding: 1rem 0;
 }
 
 blockquote {
