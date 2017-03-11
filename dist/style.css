@@ -1,21 +1,9 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@font-face {
-    font-family: 'avertabold';
-    src: url('intelligent_design_-_averta_bold_italic-webfont.woff2') format('woff2'),
-         url('intelligent_design_-_averta_bold_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
 
 @font-face {
     font-family: 'avertalight';
-    src: url('./font/webfontkit-20170310-190438/intelligent_design_-_averta_light-webfont.woff2') format('woff2'),
-         url('./font/webfontkit-20170310-190438/intelligent_design_-_averta_light-webfont.woff') format('woff');
+    src: url('./font/webfontkit/intelligent_design_-_averta_light-webfont.woff2') format('woff2'),
+         url('./font/webfontkit/intelligent_design_-_averta_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -26,8 +14,8 @@
 
 @font-face {
     font-family: 'avertaregular';
-    src: url('./font/webfontkit-20170310-190438/intelligent_design_-_averta-webfont.woff2') format('woff2'),
-         url('./font/webfontkit-20170310-190438/intelligent_design_-_averta-webfont.woff') format('woff');
+    src: url('./font/webfontkit/intelligent_design_-_averta-webfont.woff2') format('woff2'),
+         url('./font/webfontkit/intelligent_design_-_averta-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -603,32 +591,26 @@ header {
   content: '\e803';
 }
 
-/* '' */
 .icon-phone:before {
   content: '\e804';
 }
 
-/* '' */
 section {
   padding: 1em;
   border: 2px solid black;
-  margin: .25em;
+  margin: .5rem 0;
+}
+
+.work ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.3;
 }
 
 footer {
   width: 100%;
 }
 
-@media (min-width: 378px) {
-  header {
-    padding: 1em;
-  }
-
-  h1 {
-    font-size: 3em;
-  }
-
-  header h1 {
-    line-height: 0.6;
-  }
+footer {
+  background-color: #466CF9 ;
 }
