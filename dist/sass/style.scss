@@ -51,7 +51,7 @@ nav a {
 
 .title {
   max-width: 500px;
-  margin-bottom: 1em;
+  margin: 1em 0;
 }
 
 section {
@@ -73,6 +73,10 @@ section:hover, section:focus {
 .work {
   margin: 3em 0;
   justify-content: center;
+}
+
+.work img {
+  max-width: 330px;
 }
 
 @media (min-width: 780px) {
