@@ -168,6 +168,10 @@ header {
     align-items: baseline;
   }
 }
+nav {
+  margin-top: 2em;
+}
+
 nav ul {
   list-style: none;
   line-height: 2;
@@ -193,8 +197,7 @@ section {
 }
 
 section:hover, section:focus {
-  background-color: #466CF9;
-  color: white;
+  background-color: #D9E0F1;
   transition-property: background-color, color;
   transition-duration: .3s;
   transition-timing-function: ease-out;
