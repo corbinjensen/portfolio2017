@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h3 {
@@ -89,6 +89,51 @@ strong {
   color: #466CF9;
 }
 
+@media (min-width: 356px) {
+  h2 {
+    font-size: 2.1em;
+  }
+}
+@media (min-width: 396px) {
+  h2 {
+    font-size: 2.2em;
+  }
+}
+@media (min-width: 435px) {
+  h2 {
+    font-size: 2.3em;
+  }
+}
+@media (min-width: 470px) {
+  h2 {
+    font-size: 2.4em;
+  }
+}
+@media (min-width: 503px) {
+  h2 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 539px) {
+  h2 {
+    font-size: 2.6em;
+  }
+}
+@media (min-width: 570px) {
+  h2 {
+    font-size: 2.7em;
+  }
+}
+@media (min-width: 611px) {
+  h2 {
+    font-size: 2.8em;
+  }
+}
+@media (min-width: 632px) {
+  h2 {
+    font-size: 3em;
+  }
+}
 @font-face {
   font-family: 'fontello';
   src: url("./font/fontello.eot?79771692");
@@ -188,7 +233,7 @@ nav a {
 }
 
 .title {
-  max-width: 500px;
+  width: 500px;
   margin: 1em 0;
 }
 
