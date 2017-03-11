@@ -69,15 +69,11 @@ table {
 
 h1, h2, h3 {
   font-family: 'avertalight', serif;
-  font-weight: 400;
-}
-
-h1 {
-  font-size: 2em;
+  font-weight: 300;
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2em;
 }
 
 a {
@@ -192,7 +188,7 @@ section {
   border: 2px solid black;
   margin: .5rem .5rem 0 0;
   transition-property: background-color, color;
-  transition-duration: .35s;
+  transition-duration: .5s;
   transition-timing-function: ease-out;
 }
 
