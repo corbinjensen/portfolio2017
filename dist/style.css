@@ -546,8 +546,8 @@ header {
   width: 100%;
 }
 
-header h1 {
-  line-height: .75;
+.title {
+  max-width: 500px;
 }
 
 @font-face {
