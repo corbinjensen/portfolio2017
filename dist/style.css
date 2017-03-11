@@ -395,6 +395,16 @@ blockquote {
   max-width: 300px;
 }
 
+blockquote::before {
+  content: "\201C";
+  color: #446bf9;
+}
+
+blockquote::after {
+  content: "\201D";
+  color: #446bf9;
+}
+
 footer {
   background-color: #446bf9;
   color: #fafafa;
