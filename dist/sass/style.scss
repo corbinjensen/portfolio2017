@@ -21,6 +21,16 @@ body {
   color: $navyBlue;
 }
 
+.wrapper {
+  padding: 0 .5rem;
+}
+
+@media (min-width: 680px ) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+}
+
 @import "header";
 
 .sectionTitle {
