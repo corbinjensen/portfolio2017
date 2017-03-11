@@ -359,7 +359,7 @@ section:hover, section:focus {
   max-width: 330px;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 1044px) {
   .work, .clients {
     display: flex;
     flex-wrap: wrap;
@@ -414,11 +414,10 @@ blockquote::after {
 footer {
   background-color: #446bf9;
   color: #fafafa;
-  padding-bottom: 2rem;
 }
 
 footer nav {
-  padding-left: .5rem;
+  margin-bottom: 2rem;
 }
 
 footer a {
