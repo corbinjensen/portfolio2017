@@ -1,6 +1,10 @@
 // RESET
 @import "normalize";
 
+// COLOR
+
+@import 'colors';
+
 // TYPE
 @import "typography";
 
@@ -18,8 +22,8 @@ body {
   font-family: 'avertaregular', sans-serif;
   font-size: 15px;
   line-height: 1.3;
-  background-color: #fafafa;
-  color: #132147;
+  background-color: $gray;
+  color: $navyBlue;
 }
 
 @import "header";
@@ -41,8 +45,8 @@ blockquote {
 }
 
 footer {
-  background-color: #466CF9 ;
-  color: #fafafa;
+  background-color: $brandBlue ;
+  color: $gray;
   padding-bottom: 2rem;
 }
 
@@ -51,5 +55,5 @@ footer nav {
 }
 
 footer a {
-  color: #fafafa;
+  color: $gray;
 }

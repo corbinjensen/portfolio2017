@@ -340,7 +340,7 @@ section {
 }
 
 section:hover, section:focus {
-  background-color: #D9E0F1;
+  background-color: #d9e0f1;
   transition-property: background-color, color;
   transition-duration: .3s;
   transition-timing-function: ease-out;
