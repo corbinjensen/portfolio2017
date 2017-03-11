@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'avertalight';
     src: url('./font/webfontkit/intelligent_design_-_averta_light-webfont.woff2') format('woff2'),
@@ -18,19 +20,24 @@
 
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'avertalight', serif;
   font-weight: 300;
 }
 
-h1 {
+h2 {
   font-size: 3em;
 }
 
-h2 {
+h3 {
   font-size: 2em;
 }
 
 a {
+  color: #466CF9;
+}
+
+strong {
+  font-weight: 900;
   color: #466CF9;
 }
