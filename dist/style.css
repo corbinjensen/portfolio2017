@@ -228,11 +228,6 @@ strong {
   content: '\e804';
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 body {
   display: flex;
   flex-direction: column;
