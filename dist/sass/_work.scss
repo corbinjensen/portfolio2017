@@ -1,0 +1,51 @@
+section {
+  padding: 1em;
+  border: 2px solid black;
+  margin: .5rem .5rem 0 0;
+  transition-property: background-color, color;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+}
+
+section:hover, section:focus {
+  background-color: #D9E0F1;
+  transition-property: background-color, color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+.work {
+  margin: 1.5em 0;
+  justify-content: center;
+}
+
+.work img {
+  max-width: 330px;
+}
+
+@media (min-width: 780px) {
+  .work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .work section {
+    min-width: 43vw;
+  }
+}
+
+.work, header, .sectionTitle, .clients {
+  padding: .5rem;
+}
+
+.work ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.3;
+  padding-top: .5rem;
+}
+
+.work h2 {
+  margin-bottom: .5rem;
+}
