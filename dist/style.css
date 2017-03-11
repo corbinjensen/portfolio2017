@@ -496,11 +496,31 @@ body {
     justify-content: center;
   }
 }
+
 header {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (min-width: 480px) {
+  header {
+    align-items: baseline;
+  }
+}
+
+.title {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 480px) {
+
+.title {
+  max-width: 480px;
+}
+
 }
 
 nav ul {
