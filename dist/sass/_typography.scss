@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 a {
@@ -46,17 +46,26 @@ strong {
   h2 {
     font-size: 2.1em;
   }
+
+  h3 {
+    font-size: 1.5em;
+  }
 }
 
 @media (min-width: 396px) {
   h2 {
     font-size: 2.2em;
   }
+
 }
 
 @media (min-width: 435px) {
   h2 {
     font-size: 2.3em;
+  }
+
+  h3 {
+    font-size: 1.6em;
   }
 }
 
@@ -64,11 +73,16 @@ strong {
   h2 {
     font-size: 2.4em;
   }
+
 }
 
 @media (min-width: 503px) {
   h2 {
     font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1.7em;
   }
 }
 
@@ -76,22 +90,38 @@ strong {
   h2 {
     font-size: 2.6em;
   }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
 }
 
 @media (min-width: 570px) {
   h2 {
     font-size: 2.7em;
   }
+
+  h3 {
+    font-size: 1.9em;
+  }
+
 }
 
 @media (min-width: 611px) {
   h2 {
     font-size: 2.8em;
   }
+
 }
 
 @media (min-width: 632px) {
   h2 {
     font-size: 3em;
   }
+
+  h3 {
+    font-size: 2em;
+  }
+
 }
