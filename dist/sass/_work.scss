@@ -1,6 +1,6 @@
 section {
-  padding: 1em;
-  border: 2px solid black;
+  padding: 1rem;
+  border: 2px solid $navyBlue;
   margin: .5rem .5rem 0 0;
   transition-property: background-color, color;
   transition-duration: .5s;
@@ -14,7 +14,7 @@ section:hover, section:focus {
   transition-timing-function: ease-out;
 }
 
-.work {
+.work, .clients {
   margin: 1.5em 0;
   justify-content: center;
 }
@@ -24,13 +24,13 @@ section:hover, section:focus {
 }
 
 @media (min-width: 780px) {
-  .work {
+  .work, .clients {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
 
-  .work section {
+  section {
     min-width: 43vw;
   }
 }
